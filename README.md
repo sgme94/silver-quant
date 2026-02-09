@@ -64,8 +64,9 @@ MIT
 
 ## 支持
 
-如果这个项目对你有帮助，欢迎 Star ⭐️ 或打赏支持！
-
+如果这个项目对你有帮助，欢迎 Star ⭐️ 或微信打赏支持！
+微信打赏二维码：
+<img width="717" height="771" alt="image" src="https://github.com/user-attachments/assets/8c44e7d0-812a-4bbd-99a6-f4fc7fd5b5bf" />
 
 ## 支持
 
