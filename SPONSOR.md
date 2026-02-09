@@ -4,11 +4,19 @@
 
 ## 微信打赏
 
-![微信收款码](https://raw.githubusercontent.com/sgme94/silver-quant/main/wechat_pay.png)
+<img src="wechat_pay.png" width="200" alt="微信收款码">
+
+## 支付宝打赏
+
+（待添加）
 
 ## 打赏用途
 - 持续维护项目
-- 开发更多策略
+- 开发更多功能
 - 服务器费用
 
-感谢您的支持！
+## 鸣谢
+感谢所有支持本项目的朋友！
+
+---
+**打赏后请备注 GitHub 用户名，我会在 README 中致谢！**
