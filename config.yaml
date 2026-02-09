@@ -1,0 +1,38 @@
+# 上海期货交易所白银期货配置
+exchange:
+  name: SHFE
+  symbol: AG  # 白银期货主力合约
+  contract_unit: 15  # 千克/手
+  tick_size: 1  # 元/千克
+  price_limit: 0.10  # 涨跌停 10%
+  margin_ratio: 0.12  # 保证金比例 12%
+  commission_rate: 0.00005  # 手续费率 万分之 0.5
+  
+trading_hours:
+  day_session:
+    - "09:00-11:30"
+    - "13:30-15:00"
+  night_session:
+    - "21:00-23:00"  # 非主力合约到 23:00
+    - "21:00-02:30"  # 主力合约到 02:30
+
+# 模拟账户配置
+account:
+  initial_capital: 200000  # 初始资金 20 万
+  max_position: 2  # 最大手数
+  risk_per_trade: 0.02  # 单笔风险 2%
+  max_trades_per_day: 10  # 每日最大交易次数
+
+# 数据源配置
+data:
+  source: mock  # mock, sina, akshare, tushare
+  interval: 5m  # 1m, 5m, 15m, 1h, 1d
+  
+# 策略配置
+strategy:
+  name: dual_ma_atr
+  params:
+    fast_ma: 10
+    slow_ma: 30
+    atr_period: 14
+    atr_multiplier: 2.0
